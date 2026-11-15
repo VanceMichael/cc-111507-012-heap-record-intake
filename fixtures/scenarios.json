@@ -1,0 +1,46 @@
+[
+  {
+    "id": "standard",
+    "entry": "heap.hprof",
+    "version": "source-v1",
+    "resources": [
+      "heap.hprof",
+      "short.hprof"
+    ],
+    "behavior": "standard",
+    "description": "离线运维转储检索：standard"
+  },
+  {
+    "id": "late-definitions",
+    "entry": "heap.hprof",
+    "version": "source-v1",
+    "resources": [
+      "heap.hprof",
+      "short.hprof"
+    ],
+    "behavior": "late-definitions",
+    "description": "离线运维转储检索：late-definitions"
+  },
+  {
+    "id": "truncated",
+    "entry": "short.hprof",
+    "version": "source-v1",
+    "resources": [
+      "heap.hprof",
+      "short.hprof"
+    ],
+    "behavior": "truncated",
+    "description": "离线运维转储检索：truncated"
+  },
+  {
+    "id": "large-array",
+    "entry": "heap.hprof",
+    "version": "source-v1",
+    "resources": [
+      "heap.hprof",
+      "short.hprof"
+    ],
+    "behavior": "large-array",
+    "description": "离线运维转储检索：large-array"
+  }
+]
